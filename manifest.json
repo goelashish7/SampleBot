@@ -1,0 +1,35 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.5/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.5",
+  "version": "1.0",
+  "id": "279f8bfb-a341-4e2b-9ebc-8247f446b244",
+  "developer": {
+    "name": "Ashish Goel",
+    "websiteUrl": "https://trello.com/",
+    "privacyUrl": "https://trello.com/privacy",
+    "termsOfUseUrl": "https://trello.com/legal"
+  },
+  "name": "AshishFirstBot",
+  "description": {
+    "short": "Trello lets you work more collaboratively and get more done.",
+    "full": "Trello lets you work more collaboratively and get more done. Trello’s boards, lists, and cards enable you to organize and prioritize your projects in a fun, flexible and rewarding way."
+  },
+   "icons": {
+    "44": "https://www.bing.com/images/search?q=sample+image&id=39646E75666A8FDA9DBCD1D5DB6B0A2A913A5DC1&FORM=IQFRBA",
+    "88": "https://www.bing.com/images/search?q=sample+image&id=39646E75666A8FDA9DBCD1D5DB6B0A2A913A5DC1&FORM=IQFRBA"
+  },
+  "accentColor": "#0079bf",
+  "staticTabs": [
+  ],
+  "bots": [
+    {
+      "botId": "279f8bfb-a341-4e2b-9ebc-8247f446b244",
+      "scopes": [
+           "team",
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+  ]
+}
