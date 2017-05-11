@@ -1,6 +1,6 @@
 import * as builder from "botbuilder";
 
-// Strip bot mentions from the message text
+// Strip bot mentions from the message text to make work
 export class StripBotAtMentions implements builder.IMiddlewareMap {
 
     public readonly botbuilder = (session: builder.Session, next: Function): void => {
